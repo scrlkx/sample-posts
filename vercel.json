@@ -1,5 +1,8 @@
 {
   "git": {
     "deploymentEnabled": false
-  }
+  },
+  "redirects": [
+    { "source": "/", "destination": "/api/posts", "permanent": false }
+  ]
 }
