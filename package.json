@@ -1,0 +1,34 @@
+{
+  "name": "sample-posts",
+  "description": "Sample Posts is an API that provides sample content for our front-end challenge",
+  "author": "Coderockr <contato@coderockr.com> (https://coderockr.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coderockr/sample-posts"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier ./api --check",
+    "format:fix": "prettier ./api --write",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
+    "@types/node": "^22.13.0",
+    "@types/node-fetch": "^2.6.12",
+    "@vercel/node": "^5.1.13",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  }
+}
